@@ -8,19 +8,14 @@ export const Card = styled.div`
   box-shadow: 0 8px 20px rgba(79, 140, 255, 0.25);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   color: white;
-
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 28px rgba(79, 140, 255, 0.35);
-  }
-`;
+`
 
 export const Title = styled.h3`
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 18px;
   color: white;
-`;
+`
 
 export const Text = styled.p`
   display: flex;
@@ -29,10 +24,10 @@ export const Text = styled.p`
   margin: 10px 0;
   font-size: 16px;
   line-height: 1.5;
-  color: #f8f9ff;
+  color: #f8f9ff
 
   svg {
     font-size: 18px;
     color: #ffffff;
   }
-`;
+`
